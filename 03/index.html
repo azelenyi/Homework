@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" width="8%" class="logo">
+        <h1 class="title1">Rozetked.ua</h1>
+    </header>
+    <div>
+        <h2>Введите свои данные для <span>быстрого заказа!</span></h2>
+        <form action="anketa.html" method="get">
+            <label>
+                <span>Ваше имя:</span><input type="text" name="firstname" placeholder="Dart" required>
+            </label><br>
+            <label>
+                <span>Ваша фамилия:</span><input type="text" name="lastname" placeholder="Wader" required>
+            </label><br>
+            <label>
+                <span>Ваш e-mail:</span><input type="email" name="email" placeholder="Dartwader@gmail.com" required>
+            </label><br>
+            <label>
+                <span>Ваша дата рождения:</span><input type="date" name="dateofbirth" placeholder="Эпизод III: Месть ситхов" required>
+            </label><br>
+            <label>
+                <span>Мобильный номер:</span><input type="tel" name="telephone" pattern="[0-9]{5,10}" placeholder="067-123-23-23" required>
+            </label><br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
