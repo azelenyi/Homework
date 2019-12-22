@@ -1,0 +1,34 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    background: #B0E0E6;
+}
+
+header{
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    color: red;
+}
+
+.adds{
+    text-align: right;
+}
+
+.mail{
+    align-items: center;
+}
+
+.logo{
+    display: block;
+    text-align: center;
+}

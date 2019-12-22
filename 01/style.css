@@ -1,0 +1,31 @@
+body{
+    font-size: 0.8em;
+    color: black;
+    background: #DEB887;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list li{
+    display: inline;
+}
+
+.menu-list a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: grey;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff2bc;
+    border-bottom: 5px solid grey;
+}
+
+.logo{
+    display: inline-block;
+    float: right;
+}
